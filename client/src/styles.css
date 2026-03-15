@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+
+.section-card {
+  @apply rounded-3xl bg-white/90 shadow-card border border-white/60;
+}
+
+.glass-panel {
+  @apply rounded-3xl bg-white/80 backdrop-blur border border-white/60 shadow-soft;
+}
