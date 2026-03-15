@@ -14,7 +14,6 @@ Classic MERN stack app for uploading videos, generating mock thumbnails, and bro
 ```bash
 cd server
 npm install
-cp .env.example .env
 npm run dev
 ```
 
